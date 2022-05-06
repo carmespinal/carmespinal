@@ -1,0 +1,189 @@
+body {
+    /* This background image is another of my original photos. But not for marking! I tried to pick one that would give a nice feel to the page, while designing around the inherent business of the image. */
+    background: url("https://user-images.githubusercontent.com/80227452/137837955-a0802e33-72fe-4e1c-8fd6-5b1ada72af0d.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+ul {
+    /* I thought the nav bar would look good if it was centered on the page below the header. I think it matches alright! */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    }
+    
+li {
+    /* This keeps the navbar items in one horizontal line, otherwise they stack in the center. */
+    display:inline;
+    }
+    
+li a {
+    /* The navbar text. Matching the title font. */
+    display: inline-block;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    }
+
+li a:hover:not(.active) {
+    /* This selector makes the non-active navbar items slightly darker when hovered over. */
+    color: rgb(193, 193, 193);
+    }
+
+.active {
+    /* This selector makes the selected page's corresponding navbar item green with a white shadow, to indicate that the page is selected. */
+    color: #2c6e06;
+    text-shadow: 0px 0px 4px rgb(255, 255, 255), 0px 0px 4px rgb(255, 255, 255), 0px 0px 8px rgb(255, 255, 255);
+    }
+
+div.welcome {
+    /* The div corresponding to the "banner" at the top of the index.html page */
+    background-color: rgba(211, 211, 211, 0.75);
+    opacity: 1;
+    border-style: groove;
+    border-width: 6px;
+    border-color: olivedrab;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    }
+
+div.post {
+    /* The div corresponding with the "posts" on the main index.html page. */
+    background-color: rgba(211, 211, 211, 0.75);
+    opacity: 1;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+
+h1 {
+    /* The main title: "MOSSY ROCK NETWORK" */
+    color: ivory;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 3px 3px 3px #00000073, 0px 0px 3px #00000073;
+    }
+
+h2 {
+    /* The main subtitle. */
+    color: ivory;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 40px;
+    text-shadow: 3px 3px 3px #00000073;
+    }
+
+h3 {
+    /* The type and setting for the date on each "post". */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    color: black;
+    }
+
+h4 {
+    /* The title format on the home page's "banner". */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    text-align:center;
+    padding-bottom: 0px;
+    }
+    
+h5 {
+    /* Individual "post" title font on the main index.html home page. */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+    }
+
+p {
+    /* All of the normal paragraph text in the document. */
+    font-family: Verdana;
+    font-size: 12px;
+    color: black;
+    }
+
+p.center {
+    /* This formatting for any regular paragraph type that needs to be centered in the page/div. */
+    font-family: Verdana;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 20px;
+    }
+
+table {
+    /* The main styling associated with the table. */
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: 20px;
+    }
+
+td {
+    /* The styling for the table's 3 entries. I think the ridge border looks pretty cool! */
+    /* Border information taken from: https://www.w3schools.com/css/css_border.asp . */
+    border: 4px;
+    border-style: ridge;
+    border-color:olivedrab;
+    text-align: left;
+    padding: 8px;
+    }
+
+th {
+    /* Styling for the headings of each table field. */
+    /* Border information taken from: https://www.w3schools.com/css/css_border.asp . */
+    border: 4px;
+    border-style: ridge;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color:rgba(106, 142, 35, 0.5);
+    border-color:olivedrab;
+    text-align: left;
+    padding: 8px;
+    }
+
+img.post {
+    /* Image styling for images in the main index.html page's "posts".*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    width: auto;
+    height: auto; 
+    }
+
+img.banner {
+    /* Image styling for images in the banner/in the contact page. */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto; 
+    padding-bottom: 20px;
+    padding-top: 0px;
+    }
+
+address {
+    /* Styling for the address posted on the "contact" page.*/
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1,300;
+    text-align: center;
+    padding: 20px;
+    }
